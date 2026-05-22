@@ -124,8 +124,8 @@ public LoginPage login(String username, String password) {
 
 ## Tech stack
 
-- **Java 11+**
-- **Maven 3.8+**
+- **Java 17+**
+- **Maven 4.0+**
 - **Selenium 4.18** + WebDriverManager 5.7
 - **RestAssured 5.4** with JSON Schema validation
 - **TestNG 7.9** (parallel test execution support)
