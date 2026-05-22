@@ -1,0 +1,34 @@
+# Maven
+target/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+.eclipse/
+.settings/
+.project
+.classpath
+*.code-workspace
+
+# Allure results (generated locally — do not commit)
+**/allure-results/
+**/allure-report/
+
+# Config files with sensitive data — never commit
+**/config.properties
+**/api-config.properties
+
+# Keep template files
+!**/config.properties.template
+!**/api-config.properties.template
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/

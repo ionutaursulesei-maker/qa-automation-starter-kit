@@ -1,0 +1,38 @@
+# ═══════════════════════════════════════════════════════════════════════════
+#                         FILE INCLUDED IN FULL KIT ONLY
+# ═══════════════════════════════════════════════════════════════════════════
+#
+# This file is a placeholder. The actual azure-pipelines.yml in the full kit
+# is a production-ready 3-stage pipeline including:
+#
+#   STAGE 1 — API Tests (no browser, fast feedback)
+#     ✓ Java setup via JavaToolInstaller
+#     ✓ Maven dependency cache (faster subsequent runs)
+#     ✓ RestAssured tests with config injection from variable groups
+#     ✓ Allure CLI install + report generation
+#     ✓ Allure report published as a build artifact
+#
+#   STAGE 2 — UI Tests (headless Chrome)
+#     ✓ Google Chrome install
+#     ✓ Maven dependency cache
+#     ✓ Selenium tests in headless mode with secret credentials
+#     ✓ Allure CLI install + report generation
+#     ✓ Allure report published as a build artifact
+#
+#   STAGE 3 — Quality Gate
+#     ✓ Evaluates stage results
+#     ✓ Blocks merge when API tests fail (configurable)
+#     ✓ Surfaces UI failures as warnings (or blocking, your choice)
+#     ✓ Clear log issues for Azure DevOps UI
+#
+#   Triggers:
+#     ✓ Push to main / develop / release/*
+#     ✓ PRs to main / develop
+#     ✓ Nightly regression schedule (Mon–Fri at 06:00 UTC)
+#
+#   Secret variables properly handled (TEST_PASSWORD, API_TOKEN).
+#
+# → Get the full kit on Gumroad — €19
+#   https://aionut.gumroad.com/l/qa_automation_starter_kit
+#
+# ═══════════════════════════════════════════════════════════════════════════

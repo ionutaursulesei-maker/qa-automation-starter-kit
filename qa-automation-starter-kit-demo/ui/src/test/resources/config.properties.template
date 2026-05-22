@@ -1,0 +1,11 @@
+# Demo config template — same format as the full kit
+# In the full kit, ConfigReader supports system property overrides:
+#   mvn test -Dbase.url=https://staging.myapp.com -Dbrowser=firefox
+
+base.url=https://YOUR_APP_URL_HERE
+browser=chrome
+headless=false
+implicit.wait.seconds=10
+page.load.timeout.seconds=30
+test.username=YOUR_TEST_USERNAME
+test.password=YOUR_TEST_PASSWORD

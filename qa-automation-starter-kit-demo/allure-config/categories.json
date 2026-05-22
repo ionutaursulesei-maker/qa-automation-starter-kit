@@ -1,0 +1,14 @@
+[
+  {
+    "_comment": "═══════════════════════════════════════════════════════════════",
+    "_note": "The full categories.json in the paid kit defines 5 regex-based error categories:",
+    "_categories": [
+      "Infrastructure failures (WebDriver / connection errors)",
+      "Flaky tests (timeouts, stale elements, NoSuchElement)",
+      "API errors (unexpected status codes)",
+      "Assertion errors (wrong expected vs actual)",
+      "Skipped tests (intentionally ignored)"
+    ],
+    "_get_it": "https://aionut.gumroad.com/l/qa_automation_starter_kit"
+  }
+]

@@ -1,0 +1,7 @@
+# Demo config template — same format as the full kit
+# Do NOT hardcode real tokens — use env variables in CI:
+#   export API_TOKEN=xxx → mvn test -Dapi.token=${API_TOKEN}
+
+api.base.url=https://YOUR_API_BASE_URL_HERE
+api.token=YOUR_API_TOKEN_IF_NEEDED
+api.timeout.seconds=10
